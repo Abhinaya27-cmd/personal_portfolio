@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="overflow-x-hidden">
+    <header class="flex bg-[#191f36] text-white h-[10vh] justify-between items-center w-[100vw] fixed">
+        <div class="text-2xl font-bold pl-[100px] ">Portfolio</div>
+        <div class="flex gap-12 font-bold pr-20">
+            <a href="#home" class="hover:text-blue-400">Home</a>
+            <a href="#about" class="hover:text-blue-400">About</a>
+            <a href="#services" class="hover:text-blue-400">My Services</a>
+            <a href="#skills" class="hover:text-blue-400">Skills</a>
+            <a href="#contact" class="hover:text-blue-400">Contact</a>
+        </div>
+    </header>
+    <section class="bg-[#191f36] text-white h-[90vh] flex justify-between items-center gap-7" id="home">
+        <div class="pl-[150px]">
+            <h2 class="text-3xl font-bold">Hi, Myself</h2>
+            <h2 class="text-3xl font-bold my-[10px]">Abhinaya</h2>
+            <h2 class="text-3xl">And I'm a <span class="text-blue-400 text-3xl">Full Stack Developer</span></h2>
+            <p class="my-[10px]">I am a full stack developer with knowledge of both front-end and back-end development. <br>I can design user interfaces, handle databases, and build complete web applications. <br>I enjoy solving problems and creating useful websites from start to finish.</p>
+            <div class="flex text-4xl text-blue-300 gap-12">
+                <div class="border-2 border-blue-400 rounded-full hover:bg-blue-300 hover:text-black">
+                <a href="www.facebook.com" class="">
+                    <i class="fa-brands fa-facebook py-[10px] px-[10px]"></i>
+                </a>
+                </div>
+                <div class="border-2 border-blue-400 rounded-full hover:bg-blue-300 hover:text-black">
+                <a href="www.instgram.com" >
+                    <i class="fa-brands fa-instagram py-[10px] px-[10px]"></i>
+                </a>
+                </div>
+                <div class="border-2 border-blue-400 rounded-full hover:bg-blue-300 hover:text-black">
+                <a href="www.twitter.com">
+                    <i class="fa-brands fa-twitter py-[10px] px-[10px]"></i>
+                </a>
+                </div>
+                <div class="border-2 border-blue-400 rounded-full hover:bg-blue-300 hover:text-black">
+                <a href="www.linkedin.com">
+                    <i class="fa-brands fa-linkedin py-[10px] px-[10px]"></i>
+                </a>
+                </div>
+            </div>
+            <div class="mt-10">
+            <a href="" class="bg-blue-300 px-3 py-3 rounded-3xl mt-4 mr-[500px]">Download CV</a>
+            </div>
+        </div>
+        <div class="pr-[200px]">
+            <img src="../images/PASS.jpg" class="h-[300px] w-[300px] rounded-full my-[50px] hover:shadow-2xl shadow-blue-300" alt="">
+        </div>
+    </section>
+    <section class="text-white bg-[#1a242e] h-[90vh] w-[100vw] flex items-center gap-20" id="about">
+        <div class="border border-violet-300 p-2 ml-[200px]">
+            <img src="../images/frontend.jpg" alt="">
+        </div>
+        <div class="pr-[200px]">
+            <h1 class="font-bold text-3xl">About Me</h1>
+            <h2>I have skills in HTML, CSS, JavaScript, Python, and SQL to build websites and <br>I can work with both front-end frameworks and back-end logic to make smooth, <br>working systems. I also understand how to connect databases and manage user data securely.</h2>
+        </div>
+        
+    </section>
+    <section class="h-[90vh] bg-[#191f36]" id="services">
+        <div>
+        <h1 class="text-4xl font-bold text-white text-center pt-20">My <span class="text-blue-400">Services</span></h1>
+        </div>
+        <div class="text-white flex gap-[50px] w-[60vw] ml-auto mr-auto mt-[60px]">
+            <div class="text-center bg-[#262b40] py-10 w-[850px] px-2 hover:border hover:scale-110 duration-1000 rounded-2xl">
+                <i class="fa-solid fa-code text-4xl font-bold text-blue-300"></i>
+                <h2 class="text-2xl font-bold my-2">Web Development</h2>
+                <p class="text-justify mb-2">I enjoy building websites and web apps that look good and work well. I work on both the front end  and the back end. I use tools like HTML, CSS, and JavaScript to design the site, and also use things like Node.js and databases to make everything run smoothly. For me, web development is a fun way to solve problems and bring ideas to life on the internet.</p>
+                <a href="" class="py-[15px] px-[10px] bg-blue-300 rounded-3xl">Read More</a>
+            </div>
+            <div class="text-center bg-[#262b40] py-10 w-[850px] px-2 hover:border hover:scale-110 duration-1000 rounded-2xl">
+                <i class="fa-solid fa-database text-4xl font-bold text-blue-300"></i>
+                <h2 class="text-2xl font-bold my-2">Database Management</h2>
+                <p class="text-justify">I have knowledge of managing databases using SQL. I can create tables, write queries, and handle data in an organized way. I understand how to link data and keep it safe and accurate.<p><br><br><br>
+                <a href="" class="py-[15px] px-[10px] bg-blue-300 rounded-3xl">Read More</a>
+            </div>
+            <div class="text-center bg-[#262b40] py-10 w-[850px] px-2 hover:border rounded-2xl hover:scale-110 duration-1000 ">
+                <i class="fa-brands fa-python text-4xl font-bold text-blue-300"></i>
+                <h2 class="text-2xl font-bold my-2">Python Development</h2>
+                <p class="text-justify">I use Python to build logic, automate tasks, and develop backend systems. I'm comfortable with writing clean code and using libraries like Flask and Pandas. I enjoy solving problems and making programs that work well</p><br><br><br>
+                <a href="" class="py-[15px] px-[10px] bg-blue-300 rounded-3xl">Read More</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#191f36] text-white h-[90vh] pt-14" id="skills">
+            <h1 class="font-bold text-center text-4xl mb-16">My <span class="text-blue-400">Skills</span></h1>
+            <div class="grid grid-cols-2 px-40 gap-18">
+                <div>
+                    <div class="flex justify-between relative py-4 mb-3">
+                    <p>HTML</p>
+                    <p>85%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[85%] bg-blue-300 rounded-4xl"></div>
+                </div>
+                <div class="flex justify-between relative py-4 mb-3">
+                    <p>CSS</p>
+                    <p>75%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[75%] bg-blue-300 rounded-4xl"></div>
+                </div>
+                <div class="flex justify-between relative py-4 mb-3">
+                    <p>Python</p>
+                    <p>70%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[75%] bg-blue-300 rounded-4xl"></div>
+                </div>
+                <div class="flex justify-between relative py-4 mb-3">
+                    <p>SQL</p>
+                    <p>80%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[80%] bg-blue-300 rounded-4xl"></div>
+                </div>
+            </div>
+                <div>
+                <div class="flex justify-between relative py-4 mb-3">
+                    <p>TAILWIND CSS</p>
+                    <p>70%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[70%] bg-blue-300 rounded-4xl"></div>
+                </div>
+                <div class="flex justify-between relative py-4 mb-3">
+                    <p>JAVASCRIPT</p>
+                    <p>70%</p>
+                    <div class="absolute bottom-0 h-2 w-[100%] bg-white rounded-4xl"></div>
+                    <div class="absolute bottom-0 h-2 w-[70%] bg-blue-300 rounded-4xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="h-[100vh] w-[100vw] bg-black" id="contact">
+              <div class="w-[100%]  flex items-center justify-center p-25">
+                 <h1 class="text-white text-4xl font-bold">Contact <span class="text-blue-400">Me</span></h1>
+              </div>
+        <form action="" class="text-center w-[50%] ml-auto mr-auto">
+            <div class="h-[30px]   flex gap-5 items-center justify-center">
+                <input type="text" placeholder="Enter your name" class=" bg-[#191f26] text-amber-50 py-3 w-[48%] rounded-2xl">
+                <input type="Email" placeholder="Enter your Email" class=" bg-[#191f26] text-amber-50 py-3 w-[48%] rounded-2xl">
+            </div>
+            <div class="h-[30px] flex gap-5 items-center justify-center my-6">
+                <input type="Number" placeholder="Enter your Number" class=" bg-[#191f26] text-amber-50 py-3 w-[48%] rounded-2xl">
+                <input type="text" placeholder="Enter Subject" class=" bg-[#191f26] text-amber-50 py-3 w-[48%] rounded-2xl">
+            </div>
+            <div class="mb-5">
+                <textarea name="" id=""  class="bg-[#191f26] h-50 resize-none w-[100%]"></textarea>
+            </div>
+             <a href="" class="py-[15px] px-[10px] bg-blue-300 rounded-3xl text-white">Read More</a>
+
+        </form>
+    </section>
+</body>
+</html>
